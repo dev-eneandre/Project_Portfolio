@@ -1,0 +1,29 @@
+.skill-animation {
+    overflow: hidden;
+  }
+  
+  .skill-text {
+    height: 5rem;
+    /* width: auto; */
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight : bold;
+    color : #7D398A;    
+    animation: skillscroll 5s ease-in-out infinite alternate;
+  }
+
+  @keyframes skillscroll {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-120px);
+    }
+  }
+
+
+  @media screen and (max-width : 768px) {
+    .skill-text{
+        font-size: 1.8rem;
+    }       
+}
