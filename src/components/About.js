@@ -26,6 +26,8 @@ export default About;
 
 const Container = styled.div`
   padding-top : 15vh;
+  scroll-snap-align: start;
+  scroll-padding-top: 15vh;
 `
 const AboutMe = styled.div`
   display : flex;

@@ -24,6 +24,8 @@ const Container = styled.div`
     align-items: center;
     text-align: center;
     padding: 7rem 5rem;
+    scroll-snap-align: start;
+    scroll-padding-top: 15vh;
 
 
     @media screen and (max-width: 1000px){

@@ -49,13 +49,19 @@ export default Home
 const Container = styled.div`
   background-color : #212121;
   max-width : 100vw;
-  min-height : 100vh;
+  height : 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
   padding-top : 10vh;
+  scroll-behavior: smooth;
+
 `
 const Intro = styled.div`
   display : flex;
   min-height : 100vh;
   align-items : center;
+  scroll-snap-align: start;
+  scroll-padding-top: 15vh;
 
     @media screen and (max-width : 768px){
       flex-direction : column-reverse;
