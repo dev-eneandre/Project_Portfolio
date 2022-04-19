@@ -9,11 +9,12 @@ import Shoes from "../Images/Shoes.png";
 function Sites() {
   
   const [ previews, setPreviews ] = useState([
-    { name : "Andre's Dark Themed Portfolio", previewLink : "https://happy-sammet-72eb5f.netlify.app", previewImage : DarkPortfolio},
+    { name : "Andre's Dark Themed Portfolio", previewLink : "https://devandre-portfolio.netlify.app", previewImage : DarkPortfolio},
     { name : "Andre's Amazon Clone", previewLink : "https://optimistic-mahavira-2f3bd5.netlify.app/", previewImage: Amazon }, 
     { name : "Andre's First Portfolio site", previewLink : "https://happy-sammet-72eb5f.netlify.app/", previewImage: Portfolioo }, 
     { name : "Andre's Js shoe site", previewLink : "https://silly-swirles-c8861b.netlify.app/", previewImage: Shoes},
-    { name : "Andre's blog ", previewLink : "https://enchanting-pudding-da71f1.netlify.app/", previewImage : require("../Images/HayetBlog.png") }
+    { name : "Andre's blog ", previewLink : "https://devandre-blog.netlify.app", previewImage : require("../Images/HayetBlog.png") },
+    { name : "Andre's blog ", previewLink : "https://devandre-cakes.netlify.app", previewImage : require("../Images/Aosl.png") }
  
   ])
 
