@@ -13,7 +13,7 @@ function Sites() {
     { name : "Andre's Amazon Clone", previewLink : "https://optimistic-mahavira-2f3bd5.netlify.app/", previewImage: Amazon }, 
     { name : "Andre's First Portfolio site", previewLink : "https://happy-sammet-72eb5f.netlify.app/", previewImage: Portfolioo }, 
     { name : "Andre's Js shoe site", previewLink : "https://silly-swirles-c8861b.netlify.app/", previewImage: Shoes},
-    { name : "Andre's blog ", previewLink : "https://devandre-blog.netlify.app", previewImage : require("../Images/HayetBlog.png") },
+    { name : "Andre's blog ", previewLink : "https://devandre-blog.netlify.app", previewImage : require("../Images/devandre__blog.png") },
     { name : "Andre's blog ", previewLink : "https://devandre-cakes.netlify.app", previewImage : require("../Images/Aosl.png") }
  
   ])

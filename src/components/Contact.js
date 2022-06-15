@@ -33,7 +33,7 @@ function Contact() {
           <div className='contact__contacts'>
             <h3><Phone /> <span>+2349058286910</span></h3>
             <h3><MailIcon /> <span>iameneandre@gmail.com</span></h3>
-            <h4><LocationOnIcon /> <span>Lagos State, Nigeria</span></h4>
+            <h4><LocationOnIcon /> <span>Lagos, Nigeria</span></h4>
             <a href='https://github.com/dev-eneandre/'><GitHubIcon /> <span>https://github.com/dev-eneandre/</span> </a> 
           </div>
       </div>

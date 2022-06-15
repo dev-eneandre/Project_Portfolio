@@ -4,7 +4,7 @@ import DevFocus from ".././Images/Dev_focus.svg";
 import "../styles/Home.css";
 import Products from '../components/Products.js';
 import Contact from './Contact';
-import CV from "../files/Andre Ene Cv.pdf";
+import CV from "../files/Andre's Resume.pdf";
 import About from './About';
 
 function Home() {
@@ -153,10 +153,18 @@ const Intro = styled.div`
     const ButtonWrap = styled.div`
     margin-top : 2rem;
     padding : 3px 10px;
+  
     a{
       text-decoration : none;
       font-weight : 700;
-      font-size : 0.9rem
+      font-size : 0.9rem;
+
+      transition: 1000ms ease;
+
+      &:hover{
+            background-color: #4a1c53;
+        }
+  
     }
     @media screen and (max-width: 680px){
       padding : 2px 8px;
